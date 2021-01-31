@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap');
+
+* {
+  font-family: 'Roboto', cursive;
+}
+
+.invisible {
+  display: none !important;
+}
+
+body {
+  color: #ECDCC4;
+  text-align: center;
+  background-color: #342E37;
+}
+
+#login-form {
+  padding: 25px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+#login-form * {
+  margin: 5px 10px;
+}
+
+#login-form input {
+  padding: 5px;
+  outline: none;
+  background-color: transparent;
+  border: 2px solid #DEA81C;
+  border-radius: 7.5px;
+}
+
+button {
+  background-color: #DEA81C;
+  border: none !important;
+  color: #342E37;
+  padding: 5px;
+  border-radius: 7.5px;
+}
+
