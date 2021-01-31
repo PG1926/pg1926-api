@@ -1,4 +1,4 @@
-const baseUrl = 'https://www.tasarlayici.net/pg1926-api/?';
+const baseUrl = 'http://localhost/pg1926-api/?';
 const selectors = {
   loginForm: 'login-form',
   username: 'username',
